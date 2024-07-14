@@ -1,0 +1,39 @@
+.display{
+ width: 70%;
+max-width: 80%;
+min-width: 50%;
+margin-left: px;
+
+}
+.chatBar{
+height: 95vh;
+  width: 30%;
+  min-width: 20%;
+
+}
+.darkImage{
+background-color: #1a1b1eee;
+height: 100vh;
+}
+.lightImage{
+
+  background-color: #d8d9d9ee;
+height: 100vh;
+
+}
+.search{
+border: 1px solid black;
+  
+}
+.welcomeMsg{
+position: relative;
+top: 320px;
+z-index: 1;
+box-sizing: border-box;
+overflow: hidden;
+color: aliceblue;
+background-color: rgba(53, 52, 52, 0.251);
+border-radius: 25px;
+
+
+}
