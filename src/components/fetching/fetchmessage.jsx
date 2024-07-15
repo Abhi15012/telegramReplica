@@ -14,7 +14,7 @@ const Fetchmessage = () => {
           `https://devapi.beyondchats.com/api/get_chat_messages?chat_id=${arr}`
         );
         const Data = response.data.data;
-      console.log(Data)
+      // console.log(Data)
         setArr(Data);
       } catch (error) {
         console.log(error);

@@ -4,31 +4,31 @@ import { TiTick } from "react-icons/ti";
 import { RiCheckDoubleLine } from "react-icons/ri";
 
 const Contentdis = () => {
-  const { msgArr, chatsArr } = useContext(DataContext);
+  const { msgArr, chatsArr,lmsg,chatid } = useContext(DataContext);
 
 
 
   return (
     <>
-      <div className="overflow-y-scroll grid col-auto place-content-center  gap-3  h-full ">
+      <div className="overflow-y-scroll grid col-auto place-content-center  gap-3  h-full  contents12">
         {msgArr.map((item, index) => {
+          const lastId = msgArr.length > 0 ? msgArr[msgArr.length - 1].id : null;
           const timestamp = item.sender.updated_at;
 
-        
+        const dataarr=[item]
           const [datepart, timePart] = timestamp.split("T");
           const [time, dottimePart] = timePart.split(".");
+if(item.id===lastId){
+  lmsg(item.message)
 
-     const dates =[datepart]
+}
      
-   console.log(item.unanswered)
+ 
           if (chatsArr === item.sender.id) {
             return (
               <>
                 <div className="">
-               {dates.map(items=>{
-
-                
-               })}
+              {chatid(item. chat_id)}
                   <img
                     src="https://images.nightcafe.studio/jobs/a72eqa445UsQ8MFaJRGS/a72eqa445UsQ8MFaJRGS--1--0uihp_7.8125x.jpg?tr=w-1600,c-at_max"
                     width="30px"
@@ -39,6 +39,8 @@ const Contentdis = () => {
                   <div
                     className=" text-white bg-gradient-to-r from-slate-500 to-slate-300 max-h-24 pl-4 rounded-3xl  -ml-6 max-w-60  block "
                     key={index}
+
+
                   >
                     <div className="text-sm  font-bold mb-3 text-black">
                       {item.sender.name}
@@ -46,6 +48,7 @@ const Contentdis = () => {
                     {item.message}
                     <div className="time">{time}</div>
                   </div>
+                 
                 </div>
               </>
             );

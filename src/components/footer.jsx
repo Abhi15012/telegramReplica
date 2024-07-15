@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      foot
+     <input type="text " className='w-full h-12 rounded-3xl border:none pl-4'/>
     </div>
   )
 }

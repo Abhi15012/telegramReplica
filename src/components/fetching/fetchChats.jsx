@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 import Chats from '../chats';
 import Fetchmessage from './fetchmessage';
+import { DataContext } from '../../contextAPI/data';
 
 const FetchChats = () => {
   const [getData, setGetData] = useState([]);
+ 
 
   useEffect(() => {
     const chatsFetch = async () => {

@@ -10,6 +10,7 @@ import Footer from "./footer";
 const Display = () => {
   const { msgArr } = useContext(DataContext);
 const {arr}=useContext(DataContext)
+
   return (
     <div className="display h-screen w-4/5 box-border overflow-hidden">
       <Fetchmessage />
@@ -22,10 +23,10 @@ const {arr}=useContext(DataContext)
                 <div className="header h-14 bg-white">
                   <Headerdis   arrid={arr}/>
                 </div>
-                <div className=" ml-1 h-5/6">
+                <div className=" ml-1 h-5/6 ">
                   <Contentdis />
                 </div>
-                <div className="footer rounded-3xl bg-white h-12 mx-auto w-5/6 ">
+                <div className="footer  h-12 mx-auto w-5/6 ">
                   <Footer />
                 </div>
               </>

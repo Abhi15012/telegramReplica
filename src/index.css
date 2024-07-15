@@ -18,6 +18,17 @@ height: 95vh;
 position: relative;
 left:340px ;
 }
+
+.scale-0 {
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.scale-100 {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
 .darkImage{
 background-color: #1a1b1eee;
 height: 100vh;
@@ -70,6 +81,31 @@ transition: all 1s;
    
     cursor: pointer;
   }
+  .contents12::-webkit-scrollbar{
+    width: 0px;
+    background-color: rgb(246, 246, 246);
+    
+    }
+
+  .contents12:hover::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(246, 246, 246);
+transition: all 1s;
+    }
+::-webkit-scrollbar-track{
+  background-color: #ffffff00;
+
+  height: 10px;
+  
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgba(166, 166, 166, 0.867);
+    /* background: radial-gradient(circle, #D3D3D3, #00008B); */
+   
+  
+   
+    cursor: pointer;
+  }
   .header{
     margin-left: 1px;
   }
@@ -84,4 +120,7 @@ display: flex;
 justify-content: end;
 overflow: hidden;
 margin-right: 15px;
+}
+.bars{
+  border: none;
 }
