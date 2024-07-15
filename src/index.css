@@ -35,7 +35,7 @@ height: 100vh;
 }
 .lightImage{
 
-  background-color: #d8d9d9ee;
+  background-color: #d4d4d4d2;
 height: 100vh;
 
 }
@@ -81,6 +81,10 @@ transition: all 1s;
    
     cursor: pointer;
   }
+
+  .contents12{
+    max-height:99vh;
+  }
   .contents12::-webkit-scrollbar{
     width: 0px;
     background-color: rgb(246, 246, 246);
@@ -120,6 +124,7 @@ display: flex;
 justify-content: end;
 overflow: hidden;
 margin-right: 15px;
+
 }
 .bars{
   border: none;

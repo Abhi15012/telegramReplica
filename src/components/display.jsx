@@ -12,21 +12,21 @@ const Display = () => {
 const {arr}=useContext(DataContext)
 
   return (
-    <div className="display h-screen w-4/5 box-border overflow-hidden">
+    <div className="display   dark:bg-black h-screen w-4/5 box-border overflow-hidden">
       <Fetchmessage />
 
-      <div className="lightImage h-screen">
+      <div className="lightImage dark:bg-slate-900 h-screen">
         {msgArr && msgArr.length !== 0 ? (
          
               
               < > 
-                <div className="header h-14 bg-white">
+                <div className="header h-14 dark:bg-gray-800 bg-white dark:text-gray-300">
                   <Headerdis   arrid={arr}/>
                 </div>
-                <div className=" ml-1 h-5/6 ">
+                <div className="  h-5/6 ">
                   <Contentdis />
                 </div>
-                <div className="footer  h-12 mx-auto w-5/6 ">
+                <div className="footer   place-content-center dark:bg-black h-12 mx-auto w-full ">
                   <Footer />
                 </div>
               </>

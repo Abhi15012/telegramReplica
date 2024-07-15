@@ -19,11 +19,11 @@ const ChatBar = () => {
 
 
   return (
-    <div className="chatBar w-1/5 min-w-96 box-border overflow-hidden h-screen ">
-      <div className="head bg-slate-50 w-full mt-5">
+    <div className="chatBar  dark:bg-gray-800 w-1/5 min-w-96 box-border overflow-hidden h-screen ">
+      <div className="head dark:bg-gray-800 bg-slate-50 w-full mt-5">
        
         <button
-          className="bars text-2xl z-10 text-slate-600 ml-4 cursor-pointer inline border-none"
+          className="bars text-2xl z-10 dark:text-white  text-slate-600 ml-4 cursor-pointer inline border-none"
           onClick={handleButtonClick}
         >
           {!toggleBar ? <FaArrowLeft /> : <HiBars3 />}
@@ -33,7 +33,7 @@ const ChatBar = () => {
         </div>
         <div className="searchbar">
           <input
-            className="search bg-white flex sm:min-w-32 pl-3 w-5/6 rounded-xl border-slate-400 h-8 ml-14 text-slate-500 -mt-8 "
+            className="search dark:bg-gray-600 bg-white flex sm:min-w-32 pl-3 w-5/6 rounded-xl border-slate-400 h-8 ml-14 text-slate-500 -mt-8 "
             placeholder="Search"
             onClick={() => {
               setSearch(true);

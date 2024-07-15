@@ -11,7 +11,7 @@ const {getChats,lastmsg,chatidd}=useContext(DataContext)
 
   return (
    
-    <div className="chats bg-white h-screen grid row-auto grid-flow-row mt-3 gap-2 overflow-x-scroll">
+    <div className="chats dark:bg-black bg-white h-screen grid row-auto grid-flow-row mt-3 gap-1 overflow-x-scroll">
       
       {arrdata.map((item, index) => (
        

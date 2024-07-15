@@ -19,14 +19,14 @@ const Headerdis = () => {
             
           />
 {matchingSender && <><div className='inline float-left -mt-12 ml-24 font-medium '>{matchingSender.sender.name}</div>
-<div  className='inline float-left -mt-6 ml-24 font-normal text-sm text-slate-500'>last seen recently</div>
+<div  className='inline float-left -mt-6 ml-24 font-normal text-sm  dark:text-pink-400 text-slate-500'>last seen recently</div>
 
 </>}
-<div className='flex float-right gap-7 mr-2 -mt-9'>
-  <div className='font-medium text-xl text-gray-600'><MdOutlineSearch /></div>
-<div className='font-medium text-xl text-gray-600'><MdCall /></div>
-<div className='font-medium text-xl text-gray-600'><BsReverseLayoutSidebarReverse /></div>
-<div className='font-medium text-xl text-gray-600'><BsThreeDotsVertical /></div>
+<div className='flex float-right gap-7 mr-2 -mt-9 dark:text-purple-400'>
+  <div className='font-medium text-xl  dark:text-purple-400 text-gray-600'><MdOutlineSearch /></div>
+<div className='font-medium text-xl  dark:text-green-400 text-gray-600'><MdCall /></div>
+<div className='font-medium text-xl  dark:text-slate-400 text-gray-600'><BsReverseLayoutSidebarReverse /></div>
+<div className='font-medium text-xl  dark:text-blue-500 text-gray-600'><BsThreeDotsVertical /></div>
 </div>
 
   </div>

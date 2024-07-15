@@ -10,9 +10,9 @@ const Recents = () => {
   const [activeTab, setActiveTab] = useState('Chats');
 
   return (
-    <div className="chats dark:bg-gray-700 h-screen">
-      <div className="appear h-20 bg-slate-100"> <Chats12/> </div>
-      <div className="recentchats flex gap-4 mt-1 h-10  text-gray-500  shadow-sm shadow-black">
+    <div className="chats dark:bg-gray-800 h-screen">
+      <div className="appear h-20 dark:bg-slate-900 bg-slate-100"> <Chats12/> </div>
+      <div className="recentchats flex gap-4 mt-1 h-10  dark:text-white text-gray-500  shadow-sm shadow-black">
       
         <button className='links hover:text-blue-500 cursor-pointer ' onClick={() => setActiveTab('Channels')}>Channels</button>
         <button className='links hover:text-blue-500 cursor-pointer' onClick={() => setActiveTab('Media')}>Media</button>
@@ -20,7 +20,7 @@ const Recents = () => {
         <button className='links hover:text-blue-500 cursor-pointer' onClick={() => setActiveTab('Files')}>Files</button>
       </div>
       
-      <div className=' bg-white'>
+      <div className=' dark:bg-gray-800 bg-white'>
      
         {activeTab === 'Channels' && <Channels />}
         {activeTab === 'Media' && <Mediachats />}

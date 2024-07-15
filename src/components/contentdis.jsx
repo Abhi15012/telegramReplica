@@ -10,7 +10,7 @@ const Contentdis = () => {
 
   return (
     <>
-      <div className="overflow-y-scroll grid col-auto place-content-center  gap-3  h-full  contents12">
+      <div className="overflow-y-scroll  dark:bg-black grid col-auto place-content-center  gap-3  h-full  contents12">
         {msgArr.map((item, index) => {
           const lastId = msgArr.length > 0 ? msgArr[msgArr.length - 1].id : null;
           const timestamp = item.sender.updated_at;

@@ -8,7 +8,7 @@ import Recents from './components/recents'
 import { Outlet } from 'react-router-dom'
 const App = () => {
   return (
-  <div className="mainscreen  flex flex-row ">
+  <div className="mainscreen h-screen dark:bg-black flex flex-row ">
 <DataProvider>
 <ChatBar/>
 <Display/>
