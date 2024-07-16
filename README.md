@@ -54,12 +54,14 @@ Ensure you have the following installed:
 
 3.Usage
 
-  npm run dev!![Screenshot 2024-07-15 202519](https://github.com/user-attachments/assets/bb7b27b7-c76a-4864-8844-98ecedcfb8dd)
+  npm run dev!
 
 
 ### Contact 
 if you have any questions or feedback, please feel free to contact me at abhip15012@gmail.com
-  
+
+
+ ![Screenshot 2024-07-15 202519](https://github.com/user-attachments/assets/bb7b27b7-c76a-4864-8844-98ecedcfb8dd) 
 [Screenshot 2024-07-14 113222](https://github.com/user-attachments/assets/cfca10bd-6592-494b-bb1d-06c30144ed7e)
 [Screenshot 2024-07-16 065031](https://github.com/user-attachments/assets/9aabae48-75ce-4ebe-ac37-0d3a17272e70)
 
