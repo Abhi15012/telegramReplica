@@ -54,15 +54,19 @@ Ensure you have the following installed:
 
 3.Usage
 
-  npm run dev
+  npm run dev!![Screenshot 2024-07-15 202519](https://github.com/user-attachments/assets/bb7b27b7-c76a-4864-8844-98ecedcfb8dd)
+
 
 ### Contact 
 if you have any questions or feedback, please feel free to contact me at abhip15012@gmail.com
   
+[Screenshot 2024-07-14 113222](https://github.com/user-attachments/assets/cfca10bd-6592-494b-bb1d-06c30144ed7e)
+[Screenshot 2024-07-16 065031](https://github.com/user-attachments/assets/9aabae48-75ce-4ebe-ac37-0d3a17272e70)
 
-![Screenshot 2024-07-16 065031](https://github.com/user-attachments/assets/9aabae48-75ce-4ebe-ac37-0d3a17272e70)
-[telegramclone.pdf](https://github.com/user-attachments/files/16244256/telegramclone.pdf)
+![Screenshot 2024-07-15 203831](https://github.com/user-attachments/assets/55970cab-96af-4738-b8d3-237be254816e)
+![Screenshot 2024-07-15 203812](https://github.com/user-attachments/assets/59da8de8-65c2-40a4-846d-fbb01fef46ad)
 
+![Screenshot 2024-07-14 162220](https://github.com/user-attachments/assets/52346e44-3c55-46fc-acc7-4b51afd5a502)
 
 
 
