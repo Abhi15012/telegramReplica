@@ -54,7 +54,8 @@ Ensure you have the following installed:
 
 3.Usage
 
-  npm run dev!
+  npm run dev
+  
 
 
 ### Contact 
