@@ -46,6 +46,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    git clone https://github.com/your-username/telegram-replica.git
+
    cd telegram-replica
   
 2.Install the dependencies
