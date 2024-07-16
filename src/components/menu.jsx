@@ -18,7 +18,7 @@ useEffect(()=>{
     document.documentElement.classList.remove('dark')
   }
 },[theme])
-console.log(theme)
+// console.log(theme)
 const handletheme=()=>{
 seticon(!icon)
   setTheme(theme==="dark" ? 'light':'dark')

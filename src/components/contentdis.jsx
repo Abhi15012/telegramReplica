@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 import { RiCheckDoubleLine } from "react-icons/ri";
 
 const Contentdis = () => {
-  const { msgArr, chatsArr,lmsg,chatid } = useContext(DataContext);
+  const { msgArr, chatsArr,lmsg,chatid ,fetch12} = useContext(DataContext);
 
 
 
@@ -65,6 +65,7 @@ if(item.id===lastId){
                     </div>
 
                     {item.message}
+                  
                     <div className="time">
                       {time}{" "}
                       <div className="read flex text-xl ml-2  text-blue-700">

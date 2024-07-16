@@ -55,7 +55,10 @@ border-radius: 25px;
 
 
 }
-
+.mes:focus,
+.mes:valid{
+  
+}
 
 .chats::-webkit-scrollbar{
   width: 0px;

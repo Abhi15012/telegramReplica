@@ -11,14 +11,14 @@ const {getChats,lastmsg,chatidd}=useContext(DataContext)
 
   return (
    
-    <div className="chats dark:bg-black bg-white h-screen grid row-auto grid-flow-row mt-3 gap-1 overflow-x-scroll">
+    <div className="chats dark:bg-black bg-white h-screen grid row-auto grid-flow-row mt-3  overflow-x-scroll">
       
       {arrdata.map((item, index) => (
        
-        <div key={index} className="mes w-full h-16 overflow-hidden flex dark:bg-gray-800 cursor-pointer hover:bg-gray-200" onClick={()=>{
+        <div key={index} className="mes w-full h-16 overflow-hidden flex dark:bg-gray-900 cursor-pointer hover:bg-gray-400 dark:hover:bg-gradient-to-r from-cyan-500 to-blue-500" onClick={()=>{
           GetUid(item.id)
           getChats(item.creator.id )
-        }}>
+        }} required>
           <img
             src="https://images.nightcafe.studio/jobs/a72eqa445UsQ8MFaJRGS/a72eqa445UsQ8MFaJRGS--1--0uihp_7.8125x.jpg?tr=w-1600,c-at_max"
             width="60px"

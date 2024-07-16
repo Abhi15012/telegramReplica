@@ -4,9 +4,11 @@ import Display from "../display";
 import { DataContext } from "../../contextAPI/data";
 const Fetchmessage = () => {
   const { arr } = useContext(DataContext);
-  const {getData}=useContext(DataContext)
+  const {getData,fetch}=useContext(DataContext)
   // console.log(arr);
   const [arrData, setArr] = useState([]);
+  const [arr12, setAr] = useState([]);
+
   useEffect(() => {
     const messageFetch = async () => {
       try {
@@ -22,6 +24,8 @@ const Fetchmessage = () => {
     };
     messageFetch();
   },[arr]);
+
+
 
   getData(arrData)
 

@@ -8,6 +8,8 @@ export const DataContext = createContext({
   msgArr:[],
   lmsg:()=>{},
   lastmsg:[],
+  fetch:()=>{},
+  fetch12:[],
   chatid:()=>{},
   chatidd:[],
   chatsArr:[],
@@ -20,6 +22,7 @@ const DataProvider = ({ children }) => {
   const [chatsArr,setchatArr]=useState(null)
   const [lastmsg,setchatmsg]=useState(null)
   const [chatidd,setchatid]=useState(null)
+  const [fetch12,setchat]=useState(null)
 
   const GetUid = (id) => {
     setUid(id);
@@ -43,8 +46,13 @@ setmsgArr(arrayData)
 
             setchatid(ChatData)
               }
+
+              const fetch=(ChatData)=>{
+
+                setchat(ChatData)
+                  }
   return (
-    <DataContext.Provider value={{ arr: uid, GetUid ,getData,msgArr,chatsArr,getChats,lastmsg,lmsg, chatid, chatidd}}>
+    <DataContext.Provider value={{ arr: uid, GetUid ,getData,msgArr,chatsArr,getChats,lastmsg,lmsg, chatid, chatidd,fetch,fetch12}}>
       {children}
     </DataContext.Provider>
   );
